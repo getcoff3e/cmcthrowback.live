@@ -1,0 +1,237 @@
+
+@font-face {
+	font-family: RedHatDisplay;
+	src: url(font/RedHat/RedHatDisplay-Regular.ttf)
+}
+
+@font-face {
+	font-family: Minecraft;
+	src: url(font/Minecraft/MinecraftRegular-Bmg3.otf);
+}
+
+body {
+	font-size: 1.25em;
+	font-family: Minecraft;
+	background-image: url('img/scrn/bg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center top;
+}
+
+.btn {
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 4px 4px 8px 4px #0002;
+	background-color: limegreen;
+	transition: background-color 0.5s;
+}
+
+	.btn:hover {
+		background-color: lime;
+		transition: background-color 0.5s;
+	}
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #ddd;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #aaa;
+}
+
+#b1 {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+	box-shadow: 1px 2px 12px black;
+	backdrop-filter: blur(12px);
+	width: 800px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 8px;
+	color: white;
+}
+
+ul {
+	text-align: left;
+	width: fit-content;
+	margin: auto;
+}
+
+a:link, a:visited {
+	color: #ccc;
+}
+
+/* mouse over link */
+a:hover {
+	color: rgb(255, 255, 255);
+}
+
+/* selected link */
+a:active {
+	color: #777;
+}
+
+img {
+	border-radius: 6px;
+}
+
+@-webkit-keyframes cf4FadeInOut {
+	0% {
+		opacity: 1;
+	}
+
+	17% {
+		opacity: 1;
+	}
+
+	25% {
+		opacity: 0;
+	}
+
+	92% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes cf4FadeInOut {
+	0% {
+		opacity: 1;
+	}
+
+	17% {
+		opacity: 1;
+	}
+
+	25% {
+		opacity: 0;
+	}
+
+	92% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes cf4FadeInOut {
+	0% {
+		opacity: 1;
+	}
+
+	17% {
+		opacity: 1;
+	}
+
+	25% {
+		opacity: 0;
+	}
+
+	92% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes cf4FadeInOut {
+	0% {
+		opacity: 1;
+	}
+
+	17% {
+		opacity: 1;
+	}
+
+	25% {
+		opacity: 0;
+	}
+
+	92% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#cf4a {
+	position: relative;
+	height: 405px;
+	width: 720px;
+	margin: 0 auto;
+	box-shadow: 1px 2px 12px black;
+}
+
+#cf4a img {
+	position: absolute;
+	left: 0;
+}
+
+#cf4a img {
+	-webkit-animation-name: cf4FadeInOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 28s;
+	-moz-animation-name: cf4FadeInOut;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-duration: 28s;
+	-o-animation-name: cf4FadeInOut;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count: infinite;
+	-o-animation-duration: 28s;
+	animation-name: cf4FadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 28s;
+}
+
+#cf4a img:nth-of-type(1) {
+	-webkit-animation-delay: 21s;
+	-moz-animation-delay: 21s;
+	-o-animation-delay: 21s;
+	animation-delay: 21s;
+}
+
+#cf4a img:nth-of-type(2) {
+	-webkit-animation-delay: 14s;
+	-moz-animation-delay: 14s;
+	-o-animation-delay: 14s;
+	animation-delay: 14s;
+}
+
+#cf4a img:nth-of-type(3) {
+	-webkit-animation-delay: 7s;
+	-moz-animation-delay: 7s;
+	-o-animation-delay: 7s;
+	animation-delay: 7s;
+}
+
+#cf4a img:nth-of-type(4) {
+	-webkit-animation-delay: 0;
+	-moz-animation-delay: 0;
+	-o-animation-delay: 0;
+	animation-delay: 0;
+}
+
+
